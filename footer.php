@@ -1,5 +1,6 @@
 
 <?php wp_footer();?>
+
 <script>
   jQuery('.navbar-nav').children().click(function(){
         event.preventDefault();
