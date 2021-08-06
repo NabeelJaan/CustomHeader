@@ -53,7 +53,7 @@ body{
     padding: 5px 10px 10px;
 }
 .site-menu ul li ul.sub-menu > li > a{
-    padding: 0 0 12px 0 !important;
+    padding: 0 0 14px 0 !important;
 }
 .site-menu ul li ul.sub-menu > li:last-child > a{
     padding-bottom: 0 !important;
@@ -73,9 +73,13 @@ body{
     .navbar {
         padding: 17px 0 !important;
     }
+    .site-menu ul li{
+        margin: 0 !important;
+    }
     .site-menu ul li ul.sub-menu{
         position: relative;
         padding-bottom: 0 !important;
+        padding-top: 14px !important;
     }
     .site-menu ul li a{
         padding: 14px 0 0 0 !important;
