@@ -73,13 +73,17 @@ body{
     .navbar {
         padding: 17px 0 !important;
     }
+    .site-menu ul li ul.sub-menu{
+        position: relative;
+        padding-bottom: 0 !important;
+    }
     .site-menu ul li a{
         padding: 14px 0 0 0 !important;
         display: inline-block;
     }
-    .site-menu ul li:last-child a{
+    /* .site-menu ul li:last-child a{
         padding-bottom: 14px !important;
-    }
+    } */
     .site-menu ul .menu-item-has-children > a:after{
         top: 11px;
     }
